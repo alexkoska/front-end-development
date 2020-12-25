@@ -1,0 +1,12 @@
+{
+    "window.zoomLevel": 1,
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "editor.quickSuggestions": null,
+    "json.schemas": [
+    
+    ],
+    "workbench.settings.editor": "json"
+}
