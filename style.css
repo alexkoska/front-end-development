@@ -7,6 +7,7 @@ body{
     position: relative;
     width: 500px;
     height: 500px;
+    z-index: -1;
     background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
     border-radius: 50%;
     margin: 100px auto;
@@ -48,4 +49,24 @@ body{
     left: 30px;
     background:  #050210;
     border-radius: 50%;
+    
+    
+}
+
+.krug2{
+    background: #100631fd;
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    margin-top: -569px;
+    margin-left: 797px;
+    animation: pulsate 0.8s linear;
+    animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+@keyframes pulsate {
+    0% {transform: scale( 0.1); opacity: 0.6;}
+    50% {opacity:0.2;}
+    80% {transform: scale( 1.2); opacity: 0.0;}
 }
